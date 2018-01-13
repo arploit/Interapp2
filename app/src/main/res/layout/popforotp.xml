@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/popup_otpeditext"
+        style="@style/edittext_style"
+        android:hint="OTP"
+        android:gravity="center" />
+    <Button
+        android:id="@+id/popup_otpbutton"
+        style="@style/button_style"
+        android:text="Verify"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

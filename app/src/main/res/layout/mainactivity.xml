@@ -1,0 +1,57 @@
+
+
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#546E7A">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/MainActivity_Email"
+            style="@style/edittext_style"
+            android:gravity="center"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/MainActivity_password"
+            style="@style/edittext_style"
+
+            android:inputType="textPassword"
+            android:hint="Password"
+            />
+       // android:digits="1234567890abcdefghijklmnopqrstuvwxyz"
+
+        <Button
+            android:id="@+id/MainActivity_LoginButton"
+            style="@style/button_style"
+            android:text="Log In" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or" />
+        <ProgressBar
+            android:id="@+id/MainActivity_ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/MainActivity_SignupButton"
+            style="@style/button_style"
+
+            android:text="Sign Up" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
